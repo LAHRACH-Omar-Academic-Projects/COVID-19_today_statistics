@@ -1,0 +1,646 @@
+/*=========================== Main ===========================*/
+#main-section {
+    position: relative;
+    top: 30%;
+    right: 2%;
+    left: 2%;
+    width: 96%;
+    height: 320%;
+    z-index: 20;
+}
+.main-section-section1 {
+    background-color: rgba(0, 187, 56, 0.671);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    position: relative;
+    width: 37%;
+    height: 69%;
+    float: left;
+}
+#main-section-section1-div1 {
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: relative;
+    width: 100%;
+    height: 8%;
+    z-index: 11;
+    transition: 1s;
+}
+#main-section-section1-div1 span:nth-child(1) {
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    left: 10%;
+    top: 10%;
+
+}
+#main-section-section1-div1 span:nth-child(3) {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 15px;
+}
+.main-section-section1-div2 {
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    width: 80%;
+    height: 17%;
+    top: 2%;
+    left: 10%;
+    z-index: 11;
+    transition: 1s;
+}
+.main-section-section1-div2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#main-section-section1-div3 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 10%;
+    z-index: 11;
+    transition: 1s;
+}
+#main-section-section1-div3 p {
+    position: absolute;
+    height: 50%;
+    top: 5%;
+    left: 0%;
+    right: 0%;
+}
+#main-section-section1-div3 p strong {
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#main-section-section1-div3 span:nth-child(2) {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+#main-section-section1-div3 span:nth-child(3) {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+#main-section-section1-div3 span:nth-child(4) {
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 76%;
+}
+.main-section-section1-div4 {
+    background-color: rgb(240, 0, 60);
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    right: 0%;
+    bottom: 55%;
+    z-index: 11;
+    transition: 1s;
+}
+.main-section-section1-div4 span{
+    position: absolute;
+    font-size: 25px;
+    top: 20%;
+    left: 25%;
+}
+@keyframes stats {
+    from {bottom: 100%;}
+    to {bottom: -1330%;}
+}
+.main-section-section1-div5 {
+    position: absolute;
+    top: 30%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow: hidden;
+    transition: 1s;
+}
+.main-section-section1-div5 ul {
+    position: absolute;
+    bottom: 100%;
+    right: 0%;
+    left: 0%;
+    animation-name: stats;
+    animation-duration: 250s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    list-style-type: none;
+    padding: 0%;
+}
+.display-statistic li {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
+    position: relative;
+    width: 100%;
+    padding: 2%;
+    transition: 1s;
+}
+.display-statistic li #s0 {
+    position: absolute;
+    left: 20%;
+}
+.display-statistic li #s1 {
+    position: absolute;
+    right: 2%;
+}
+.display-statistic li #s0:hover {
+    cursor: pointer;
+    color: teal;
+}
+.main-section-section2 {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+#main-section-section2-div0 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 53%;
+    bottom: 93%;
+    left: 0%;
+    transition: 1s;
+}
+#main-section-section2-div1 {
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 93%;
+    left: 48%;
+    transition: 1s;
+}
+.main-section-section2-div1-part1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 70%;
+}
+.main-section-section2-div1-part1-image {
+    background-color: rgb(3, 104, 95);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 40%;
+    right: 0%;
+}
+.main-section-section2-div1-part1 img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.main-section-section2-div1-part1-text {
+    background-color: rgba(0, 138, 156, 0.863);
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    border-radius: 5px;
+    top: 66%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+}
+.main-section-section2-div1-part1-text span {
+    font-size: 15px;
+}
+.main-section-section2-div1-statistic {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 1%;
+    left: 31%;
+    right: 0%;
+    bottom: 0%;
+    transition: 1s;
+}
+.main-section-section2-div1-statistic .img1 {
+    background-color: rgba(255, 230, 0, 0.897);
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    width: 15%;
+    left: 2%;
+}
+.main-section-section2-div1-statistic .img10 {
+    background-color: rgba(0, 255, 64, 0.897);
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    width: 15%;
+    padding: 1%;
+    left: 2%;
+}
+.main-section-section2-div1-statistic .img20 {
+    background-color: rgba(183, 0, 255, 0.897);
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    width: 15%;
+    padding: 1%;
+    left: 2%;
+}
+.main-section-section2-div1-statistic .img2 {
+    position: absolute;
+    height: 60%;
+    width: 10%;
+    left: 1;
+    right: 1%;
+    top: 20%;
+}
+.main-section-section2-div1-statistic div .text1 {
+    font-weight: 600;
+    position: relative;
+    top: 8%;
+    left: 5%;
+}
+.main-section-section2-div1-statistic div .text2 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.main-section-section2-div1-part2 {
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    bottom: 67%;
+    right: 0%;
+}
+.main-section-section2-div1-part3 {
+    position: absolute;
+    top: 34%;
+    left: 0%;
+    bottom: 34%;
+    right: 0%;
+}
+.main-section-section2-div1-part4 {
+    position: absolute;
+    border-radius: 15px;
+    top: 67%;
+    left: 0%;
+    bottom: 1%;
+    right: 0%;
+}
+#main-section-section2-div2 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 8%;
+    right: 51%;
+    bottom: 62%;
+    left: 0%;
+    transition: 1s;
+}
+.main-section-section2-div2-part1 {
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 80%;
+}
+.main-section-section2-div2-part1 span:nth-child(1) {
+    position: absolute;
+    font-size: 25px;
+    top: 2%;
+    left: 2%;
+}
+.main-section-section2-div2-part1 span:nth-child(2) {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 2%;
+}
+.main-section-section2-div2-part1 img {
+    background-color: rgba(255, 230, 0, 0.897);
+    border-radius: 5px;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    right: 2%;
+    top: 45%;
+}
+#myChart1 {
+    position: relative;
+    top: 15%;
+}
+#main-section-section2-div3 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 8%;
+    left: 51%;
+    bottom: 62%;
+    right: 0%;
+    transition: 1s;
+}
+.main-section-section2-div3-part1 {
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 80%;
+}
+.main-section-section2-div3-part1 span:nth-child(1) {
+    position: absolute;
+    font-size: 25px;
+    top: 2%;
+    left: 2%;
+}
+.main-section-section2-div3-part1 span:nth-child(2) {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 2%;
+}
+.main-section-section2-div3-part1 img {
+    background-color: rgba(183, 0, 255, 0.897);
+    border-radius: 5px;
+    padding: 1%;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    right: 2%;
+    top: 45%;
+}
+#myChart2 {
+    position: relative;
+    top: 15%;
+}
+#main-section-section2-div4 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 39%;
+    right: 51%;
+    bottom: 31%;
+    transition: 1s;
+    left: 0%;
+}
+.main-section-section2-div4-part1 {
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 80%;
+}
+.main-section-section2-div4-part1 span:nth-child(1) {
+    position: absolute;
+    font-size: 25px;
+    top: 2%;
+    left: 2%;
+}
+.main-section-section2-div4-part1 span:nth-child(2) {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 2%;
+}
+.main-section-section2-div4-part1 img {
+    background-color: rgba(0, 255, 64, 0.897);
+    border-radius: 5px;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    right: 2%;
+    top: 45%;
+    padding: 1%;
+}
+#myChart3 {
+    position: relative;
+    top: 15%;
+}
+#main-section-section2-div5 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 39%;
+    right: 0%;
+    bottom: 31%;
+    left: 51%;
+    transition: 1s;
+}
+.main-section-section2-div5-part1 span:nth-child(1) {
+    position: absolute;
+    font-size: 25px;
+    top: 2%;
+    left: 2%;
+}
+.main-section-section2-div5-part1 span:nth-child(2) {
+    position: absolute;
+    font-size: 20px;
+    top: 45%;
+    left: 2%;
+}
+.main-section-section2-div5-part1 {
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 80%;
+}
+.main-section-section2-div5-part1 img {
+    background-color: rgba(0, 153, 255, 0.897);
+    border-radius: 5px;
+    padding: 1%;
+    position: absolute;
+    width: 12%;
+    height: 40%;
+    right: 2%;
+    top: 45%;
+}
+#myChart4 {
+    position: relative;
+    top: 15%;
+}
+#main-section-section2-lastdiv {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 70%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    transition: 1s;
+}
+.main-section-section2-div6 {
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 49%;
+    bottom: 0%;
+    left: 0%;
+}
+.main-section-section2-div6-part1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 51%;
+}
+.main-section-section2-div6-part2 {
+    position: absolute;
+    top: 51%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.image-text1, .image-text12 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    bottom: 75%;
+    right: 0%;
+}
+.image-text1 img {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    width: 25%;
+}
+.image-text2 img {
+    position: absolute;
+    left: 16%;
+    top: 0%;
+    width: 20%;
+}
+.image-text1 span, .image-text2 span {
+    position: absolute;
+    left: 40%;
+    font-size: 25px;
+    top: 2%;
+}
+.statistic {
+    position: absolute;
+    top: 26%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+.statistic .container {
+    position: relative;
+    margin-top: 1%;
+    left: 0%;
+    width: 100%;
+    height: 23%;
+}
+.statistic .container .image{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    right: 86%;
+    bottom: 1%;
+}
+.statistic .img1 {
+    background-color: rgba(255, 230, 0, 0.897);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.statistic .img2 {
+    background-color: rgba(183, 0, 255, 0.897);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+.statistic .img3 {
+    background-color: rgba(0, 255, 64, 0.897);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
+.statistic .img4 {
+    background-color: rgba(0, 153, 255, 0.897);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 6%;
+}
+.statistic span {
+    font-size: 20px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}   
+#main-section-section2-div7 {
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 51%;
+    transition: 1s;
+}
+.main-section-section2-div7-part1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 51%;
+}
+.main-section-section2-div7-part2 {
+    position: absolute;
+    top: 51%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}
+#myChart5 {
+    position: relative;
+    bottom: 10%;
+}
+#myChart6 {
+    position: relative;
+    bottom: 10%;
+}
+#main-section-section3 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    width: 38%;
+    height: 30%;
+    top: 70%;
+    transition: 1s;
+}
+#main-section-section3 #myChart7 {
+    position: absolute;
+    top: 0%;
+}
+
+

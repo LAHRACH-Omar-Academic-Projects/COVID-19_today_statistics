@@ -1,0 +1,221 @@
+main {
+    position: relative;
+    top: 30%;
+    right: 2%;
+    left: 2%;
+    width: 96%;
+    height: 200%;
+    z-index: 20;
+}
+#section0 {
+    background-color: rgba(0, 209, 98, 0.781);
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    top: 0%;
+    height: 11%;
+    text-align: center;
+    border-radius: 10px;
+}
+#section1 {
+    z-index: 10;
+    position: absolute;
+    top: 14%;
+    right: 0%;
+    bottom: 40%;
+    left: 0%;
+}
+#section2 {
+    position: absolute;
+    top: 65%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.section1-table {
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 12%;
+    right: 43%;
+    bottom: 0%;
+    left: 0%;
+    overflow-y: scroll;
+    transition: 1s;
+}.section1-chart {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 60%;
+}
+.section2-chart {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 60%;
+    bottom: 0%;
+    left: 0%;
+    transition: 1s;
+}
+.section2-map {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 43%;
+    transition: 1s;
+}
+.section1-chart-div1 {
+    background-color: rgb(0, 154, 226);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 70%;
+    bottom: 80%;
+    left: 0%;
+}
+.section1-chart-div2 {
+    background-color: rgb(14, 175, 35);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 35%;
+    bottom: 80%;
+    left: 35%;
+}
+.section1-chart-div3 {
+    background-color: rgb(255, 3, 37);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 80%;
+    left: 70%;
+}
+.section1-chart-div1:hover {
+    top: -1%;
+    right: 69%;
+    bottom: 79%;
+    left: -1%;
+    transition: 0.5s;
+}
+.section1-chart-div2:hover {
+    top: -1%;
+    right: 34%;
+    bottom: 79%;
+    left: 34%;
+    transition: 0.5s;
+}
+.section1-chart-div3:hover {
+    top: -1%;
+    right: -1%;
+    bottom: 79%;
+    left: 69%;
+    transition: 0.5s;
+}
+.section1-chart-div4 {
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 25%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    transition: 1s;
+}
+.table {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    color: rgb(192, 192, 192);
+    margin-bottom: 0%;
+}
+#flag {
+    width: 50px;
+    height: 40px;
+    margin-right: 5%;
+}
+#country {
+    width: 50%;
+}
+.thead {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    height: 10%;
+    width: 57%;
+    font-size: 15px;
+    z-index: 10;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 165, 102, 0.788);
+}
+.span1 {
+    display: inline-block;
+    position: relative;
+    left: 2%;
+    top: 25%;
+}
+.span2 {
+    display: inline-block;
+    position: relative;
+    left: 38%;
+    top: 25%;
+}
+.span3 {
+    display: inline-block;
+    position: relative;
+    left: 45%;
+    top: 25%;
+}
+.span4 {
+    display: inline-block;
+    position: relative;
+    left: 52%;
+    top: 25%;
+}
+
+.div1-name, .div2-name, .div3-name{
+    color: blanchedalmond;
+    position: absolute;
+    top: 2%;
+    right: 70%;
+    bottom: 60%;
+    left: 10%;
+}
+.div1-number, .div2-number, .div3-number{
+    color: blanchedalmond;
+    font-weight: 500;
+    font-size: 25px;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    bottom: 5%;
+    left: 10%;
+}
+#myLineChart {
+    position: relative;
+    bottom: 0%;
+}
+#myPieChart {
+    position: absolute;
+    bottom: 5%;
+}
+#sidebar-icon:hover {
+    background-color:rgb(0, 18, 39);
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer;
+}

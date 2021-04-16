@@ -1,0 +1,537 @@
+/*============================== Main ==============================*/
+#main-section {
+    position: relative;
+    top: 30%;
+    right: 2%;
+    left: 2%;
+    width: 96%;
+    height: 320%;
+    z-index: 20;
+}
+.section1 {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+}
+.section1 .title {
+    color: rgb(255, 51, 0);
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    top: 35%;
+}
+.section2 {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 12%;
+}
+.section2 .div1 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    right: 69%;
+    bottom: 10%;
+    transition: 1s;
+}
+.section2 .div1 .part1 {
+    background-color: rgb(255, 208, 0);
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    bottom: 90%;
+}
+.section2 .div1 .part2 {
+    background-color: rgb(255, 208, 0);
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    bottom: 30%;
+    right: 65%;
+}
+.section2 .div1 .part2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.section2 .div1 .part3 {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section2 .div1 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div1 .part5 {
+    position: absolute;
+    right: 2%;
+    left: 90%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div1 .part5 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.section2 .div2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    right: 38%;
+    transition: 1s;
+    bottom: 10%;
+}
+.section2 .div2 .part1 {
+    background-color: rgb(0, 255, 106);
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    bottom: 90%;
+}
+.section2 .div2 .part2 {
+    background-color: rgb(0, 255, 85);
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    bottom: 30%;
+    right: 65%;
+    padding: 1%;
+}
+.section2 .div2 .part2 img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.section2 .div2 .part3 {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section2 .div2 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div2 .part5 {
+    position: absolute;
+    right: 2%;
+    left: 90%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div2 .part5 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.section2 .div3 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 10%;
+    left: 69%;
+    right: 7%;
+    bottom: 10%;  
+    transition: 1s;
+}
+.section2 .div3 .part1 {
+    background-color: rgb(162, 0, 255);
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    bottom: 90%;
+}
+.section2 .div3 .part2 {
+    background-color: rgb(183, 0, 255);
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    bottom: 30%;
+    right: 65%;
+}
+.section2 .div3 .part2 img {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+}
+.section2 .div3 .part3 {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section2 .div3 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div3 .part5 {
+    position: absolute;
+    right: 2%;
+    left: 90%;
+    top: 55%;
+    bottom: 30%;
+}
+.section2 .div3 .part5 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.section2 .div1 .part6, .section2 .div2 .part6, .section2 .div3 .part6 {
+    color: rgba(122, 122, 122, 0.883);
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+.section3 {
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 12%;
+} 
+.section3 .div1 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 18%;
+    left: 4%;
+    right: 76%;
+    transition: 1s;
+    bottom: 18%;
+}
+.section3 .div1 .part1 {
+    background-color: rgb(255, 208, 0);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    left: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div1 .part2 {
+    background-color: rgb(255, 208, 0);
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 45%;
+    right: 65%;
+}
+.section3 .div1 .part2 img {
+    position: absolute;
+    width: 74%;
+    height: 74%;
+    margin: 13%;
+}
+.section3 .div1 .part3 {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section3 .div1 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section3 .div1 .part6 {
+    background-color: rgb(255, 208, 0);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 18%;
+    left: 28%;
+    right: 52%;
+    bottom: 18%;
+    transition: 1s;
+}
+.section3 .div2 .part1 {
+    background-color: rgb(0, 255, 106);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    left: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div2 .part2 {
+    background-color: rgb(0, 255, 85);
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 45%;
+    right: 65%;
+}
+.section3 .div2 .part2 img {
+    position: absolute;
+    width: 64%;
+    height: 64%;
+    margin: 18%;
+}
+.section3 .div2 .part3 {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section3 .div2 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section3 .div2 .part6 {
+    background-color: rgb(0, 255, 106);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div3 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    right: 28%;
+    bottom: 18%; 
+    transition: 1s; 
+}
+.section3 .div3 .part1 {
+    background-color: rgb(162, 0, 255);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    left: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div3 .part2 {
+    background-color: rgb(183, 0, 255);
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 45%;
+    right: 65%;
+}
+.section3 .div3 .part2 img {
+    position: absolute;
+    width: 64%;
+    height: 64%;
+    margin: 18%;
+}
+.section3 .div3 .part3 {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section3 .div3 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section3 .div3 .part6 {
+    background-color: rgb(162, 0, 255);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div4 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    position: absolute;
+    top: 18%;
+    left: 76%;
+    right: 4%;
+    bottom: 18%;
+    transition: 1s;  
+}
+.section3 .div4 .part1 {
+    background-color: rgb(0, 162, 255);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    left: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div4 .part2 {
+    background-color: rgb(0, 162, 255);
+    border-radius: 100%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    bottom: 45%;
+    right: 65%;
+}
+.section3 .div4 .part2 img {
+    position: absolute;
+    width: 64%;
+    height: 64%;
+    margin: 18%;
+}
+.section3 .div4 .part3 {
+    font-size: 14px;
+    font-weight: 500;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.section3 .div4 .part4 {
+    font-size: 20px;
+    position: absolute;
+    right: 10%;
+    top: 55%;
+    bottom: 30%;
+}
+.section3 .div4 .part6 {
+    background-color: rgb(0, 162, 255);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    right: 2%;
+    width: 2%;
+    bottom: 0%;
+}
+.section3 .div1 .part5, .section3 .div2 .part5, .section3 .div3 .part5, .section3 .div4 .part5 {
+    color: rgba(122, 122, 122, 0.876);
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+.section4 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    transition: 1s;
+}
+.section4 .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.section4 .list {
+    background-color: rgb(1, 39, 83);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 2%;
+    margin-left: 75%;
+    cursor: pointer;
+}
+.section4 .chart1 {
+    position: absolute;
+}
+.section5 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    position: relative;
+    top: 2%;
+    width: 100%;
+    height: 22%;
+    transition: 1s;
+}
+.section5 .chart2 {
+    position: absolute;
+}
+.section6 {
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    position: relative;
+    top: 4%;
+    width: 100%;
+    height: 20%;
+    transition: 1s;
+}
+.section6 .pieChart {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 50%;
+}
+.section6 .doughnutChart {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    bottom: 0%;
+    right: 0%;
+}
+.section6 .chart3 {
+    position: absolute;
+}
+.section6 .chart4 {
+    position: absolute;
+}
